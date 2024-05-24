@@ -1,0 +1,21 @@
+{
+  "name": "hook-examples",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "1_closure_simple": "ts-node examples/01_closure_simple.ts",
+    "2_closure": "ts-node examples/02_closure.ts",
+    "3_state_hook": "ts-node examples/03_state_hook.ts",
+    "4_render_context": "ts-node examples/04_render_context.ts",
+    "5_multiple_states": "ts-node examples/05_multiple_states.ts",
+    "6_state_hook": "ts-node examples/06_effect_hook.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  }
+}
